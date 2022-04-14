@@ -26,7 +26,7 @@ class QuestionRepositoryTest {
     private Question secondQuestion;
 
     @BeforeEach
-    void setUp(){
+    void setUp() {
         user = userRepository.save(new User("javajigi", "password", "name", "javajigi@slipp.net"));
         firstQuestion = new Question("title1", "contents1").writeBy(user);
         secondQuestion = new Question("title2", "contents2").writeBy(user);
