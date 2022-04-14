@@ -14,6 +14,9 @@ public class Password {
         this.password = password;
     }
 
+    public Password() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {

@@ -14,6 +14,9 @@ public class Name {
         this.name = name;
     }
 
+    public Name() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {

@@ -10,6 +10,9 @@ public class UserId {
     @Column(length = 20, nullable = false, unique = true)
     private String userId;
 
+    public UserId() {
+    }
+
     public UserId(String userId) {
         this.userId = userId;
     }

@@ -20,6 +20,9 @@ public class UserInfo {
     @Embedded
     private Email email;
 
+    public UserInfo() {
+    }
+
     public UserInfo(String userId, String password, String name, String email) {
         this.userId = new UserId(userId);
         this.password = new Password(password);
